@@ -1,0 +1,14 @@
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\bin\Debug\net8.0\Lab0FastSort.exe
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\bin\Debug\net8.0\Lab0FastSort.deps.json
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\bin\Debug\net8.0\Lab0FastSort.runtimeconfig.json
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\bin\Debug\net8.0\Lab0FastSort.dll
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\bin\Debug\net8.0\Lab0FastSort.pdb
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.AssemblyInfoInputs.cache
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.AssemblyInfo.cs
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.csproj.CoreCompileInputs.cache
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.dll
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\refint\Lab0FastSort.dll
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.pdb
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.genruntimeconfig.cache
+C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\ref\Lab0FastSort.dll
