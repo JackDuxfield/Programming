@@ -1,38 +1,57 @@
-﻿
+﻿using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-string filePath = "C:\\Users\\Duxfield\\Documents\\Yr2 UCOL\\Programming\\labText.txt";
-string[] lines = File.ReadAllLines(filePath);
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
 
-int secondNum;
-int loopNum = 0;
-int lineLength = lines.Length;
-var rng = new Random();
+        string filePath = "C:\\Users\\Duxfield\\Documents\\Yr2 UCOL\\Programming\\labText.txt";
+        string[] lines = File.ReadAllLines(filePath);
 
-while (loopNum < lineLength){
-    loopNum = 0;
-    int firstNum = 0;
+        int secondNum;
+        int loopNum = 0;
+        int lineLength = lines.Length;
+        var rng = new Random();
 
-    foreach (string line in lines){
-        secondNum = Convert.ToInt32(line);
+        while (loopNum < lineLength)
+        {
+            loopNum = 0;
+            int firstNum = 0;
 
-        if (secondNum < firstNum){
-            Console.WriteLine("[{0}]", string.Join(", ", lines));
+            foreach (string line in lines)
+            {
+                secondNum = Convert.ToInt32(line);
 
-            rng.Shuffle(lines);
-            break;
+                if (secondNum < firstNum)
+                {
+                    Console.WriteLine("[{0}]", string.Join(", ", lines));
 
-        } else{
-            firstNum = secondNum;
-            loopNum++;
+                    rng.Shuffle(lines);
+                    break;
+
+                }
+                else
+                {
+                    firstNum = secondNum;
+                    loopNum++;
+                }
+            }
+
         }
-    }
-    
-}
 
-Console.WriteLine("\n\n[{0}]", string.Join(", ", lines));
+        Console.WriteLine("\n\n[{0}]", string.Join(", ", lines));
+        
+        stopwatch.Stop();
+        TimeSpan elapsed = stopwatch.Elapsed;
+
+        Console.WriteLine($"Time to run: {elapsed.TotalMilliseconds} ms");
+    }
+}
 
 static class RandomExtensions
 {
