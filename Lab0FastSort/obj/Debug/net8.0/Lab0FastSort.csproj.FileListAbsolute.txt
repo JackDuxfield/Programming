@@ -12,3 +12,4 @@ C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\r
 C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.pdb
 C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.genruntimeconfig.cache
 C:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\ref\Lab0FastSort.dll
+c:\Users\Duxfield\Documents\Yr2 UCOL\Programming\Lab0FastSort\obj\Debug\net8.0\Lab0FastSort.sourcelink.json
