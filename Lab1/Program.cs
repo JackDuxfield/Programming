@@ -223,4 +223,17 @@ public class Person {
             
         }
     }
+
+
 }
+
+/*
+Question 1: When searching/inserting/deleting large amounts of information as list take less time to 
+find and make these changes compared to arrays
+
+
+Question 2: Each node can be located anywhere in memory as it can be located by pointers but need more storage due to the extra pointers
+Arrays must be stored contiguously in the same area of storage or you will not be able to find parts of the array.
+
+*/
+
