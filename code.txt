@@ -1,0 +1,56 @@
+// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
+using System.Globalization;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+string filePath = "C:\\Users\\Duxfield\\Documents\\Yr2 UCOL\\Lab0\\labtext.txt";
+
+string[] lines = File.ReadAllLines(filePath);
+
+// covert string to num
+// check each num lower than one before
+// if yes print and end program
+// if no randomise and try again
+
+int firstNum = 0;
+int secondNum;
+int loopNum = 0;
+var rng = new Random();
+
+while (loopNum < lines.Length){
+    loopNum = 0;
+    foreach (string line in lines){
+        secondNum = Convert.ToInt32(line);
+        if (secondNum < firstNum){
+            rng.Shuffle(lines);
+            break;
+        } else{
+            firstNum = secondNum;
+            loopNum++;
+        }
+    }
+    foreach (string line in lines){
+    Console.WriteLine(line);
+}
+var pause = Console.ReadLine();
+}
+
+
+foreach (string line in lines){
+    Console.WriteLine(line);
+}
+
+static class RandomExtensions
+{
+public static void Shuffle<T> (this Random rng, T[] array){
+    int n = array.Length;
+    while (n > 1){
+        int k = rng.Next(n--);
+        T temp = array[n];
+        array[n] = array[k];
+        array[k] = temp;
+    }
+}
+}
+

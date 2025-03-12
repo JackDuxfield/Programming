@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Duxfield\\Documents\\Yr2 UCOL\\Programming\\Lab0FastSort\\Lab0FastSort.csproj",
+      "projectUniqueName": "C:\\Users\\Duxfield\\Documents\\Ucol\\Yr2 UCOL\\Programming\\Lab0FastSort\\Lab0FastSort.csproj",
       "projectName": "Lab0FastSort",
-      "projectPath": "C:\\Users\\Duxfield\\Documents\\Yr2 UCOL\\Programming\\Lab0FastSort\\Lab0FastSort.csproj",
+      "projectPath": "C:\\Users\\Duxfield\\Documents\\Ucol\\Yr2 UCOL\\Programming\\Lab0FastSort\\Lab0FastSort.csproj",
       "packagesPath": "C:\\Users\\Duxfield\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Duxfield\\Documents\\Yr2 UCOL\\Programming\\Lab0FastSort\\obj\\",
+      "outputPath": "C:\\Users\\Duxfield\\Documents\\Ucol\\Yr2 UCOL\\Programming\\Lab0FastSort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
